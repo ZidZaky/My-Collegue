@@ -1,0 +1,29 @@
+Buatlah sebuah aplikasi kasir untuk sebuah toko dengan tema bebas. Aplikasi ini menggunakan linked list dan memiliki 5 fungsi utama.
+
+1. Daftar barang
+	(Fungsi daftar barang memungkinnkan kita 
+    meilhat semua nama barang yang sudah tersimpan di dalam linked list.)DONE
+(Nilai tambah jika terdapat opsi pengurutan berdasarkan jumlah stock)
+
+2. Tambah barang 
+	Fungsi ini berfungsi untuk menambahkan barang baru
+     kedalam linked list
+
+3. Hapus Barang.
+	Fungsi ini berfungsi untuk menghapus barang yang ada 
+    didalam linked list
+
+4. Cari Barang
+
+	Berfungsi untuk menampilkan detail (harga/stock/dll) 
+    sebuah barang berdasarkan namanya. 
+(Nilai tambah jika bisa mengedit data tersebut)
+
+5. Tranksaksi Dalam fungsi  transaksi  ini kita bisa memilih
+ barang yang akan dibeli oleh pembeli dan mengurangi stocknya. 
+ TIdak lupa juga menampilkan struknya.
+
+ Catatan Bug :
+ Main Menu (Clear)
+ Daftar (Clear)
+ 
