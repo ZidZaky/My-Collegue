@@ -1,0 +1,71 @@
+1 bit: 1 state didalam komponen elektronik yang akan di representasikan dengan menggunakan 0 / 1 (Kelistrikan dalam elektronik) 0-5 mili/micro watt.
+Tipe data Primitif
+1.	8 bits: byte			-2^7	~	2^7-1
+2.	16 bits: short			-2^15 	~	2^15-1
+3.	32 bits: int /			-2^31 	~	2^31-1
+4.	64 bits: long / double	-2^63 	~	2^63-1
+
+Menentukan Basis Data / Type Data Lebih Efisiensi Dalam Jumlah byte
+
+Konversi Binary Ke Besar Byte :
+1010 0101
+
+1 * 2^0 = 1
+0 * 2^1 = 0
+1 * 2^2 = 4
+0 * 2^3 = 0
+0 * 2^4 = 0
+1 * 2^5 = 32
+0 * 2^6 = 0
+1 * 2^7 = 128
+-------------- +	
+Total	= 165 
+Masuk Kategori Type Data Byte.
+
+char	: single unicode (1 byte)
+boolean	: true / false 
+
+tipe data Primitif & Reference(Class):
+int a = 0; (primitif)
+Interger a = 1; (Reference)
+
+nilai tambah reference :
+- dikarenakan dia merupakan class
+dia memiliki berbagai tambahan Function
+cnth :
+
+	String nama="Nice Code";
+	Integer.parseInt(nama);
+
+parseint merupakan fungsi untuk merubah
+nama menjadi integer (type data bentukan).
+
+nilai kurang reference :
+- menggunakan memori jauh lebih besar
+karena class menyangkut banyak fungsi
+
+Apakah Variable tersebut digunakan 
+untuk perhitungan aritmatika atau tidak, 
+jika tidak Maka Bentuk String untuk 
+angka diperbolehkan. (tergantung kebutuhan)
+
+variabel :
+1. Secara bahasa = tempat penyimpanan.
+2. Secara Komputerisasi : sebuah tempat didalam memori yang telah dialokasikan untuk menyimpan value tertentu.
+
+penyimpanan alamat secara fisik berisi :
+1. nama
+2. tipe data
+3. valuenya
+
+ls in cmd for files
+
+getter = Untuk ngambil data yang boleh diketahui. (harus beralasan)
+setter = untuk mengganti nilai pada variabel tertentu
+
+walaupun unique untuk seluruh data, jangan dijadikan primary key(dikunci)
+
+Tugas :
+1 studi kasus
+Tolong Tentukan analisis sudut pandang sistem apa yang ingin anda gunakan. 
+tentukan objek = class atau entitas, tentukan atribut!.
